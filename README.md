@@ -1,1 +1,1 @@
-# Safe-Chain.github.io (WIP)
+# SafeChain (WIP)
