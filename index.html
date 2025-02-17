@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Safety, Alignment, Language Model, Reasoning, Chain-of-Thought">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>SafeChain</title>
+  <link rel="icon" type="image/x-icon" href="static/images/nsl.jpeg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title"><span style="font-variant: small-caps;">SafeChain</span> <br> Safety of Language Models with Long Chain-of-Thought Reasoning Capabilities </h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=kTXY8P0AAAAJ&hl=en" target="_blank">Fengqing Jiang</a>,</span>
+                <span class="author-block">
+                  <a href="https://zhangchenxu.com/" target="_blank">Zhangchen Xu</a>,</span>
+                  <span class="author-block">
+                    <a href="https://yuetl9.github.io/" target="_blank">Yuetai Li</a>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://luyaoniu.github.io/" target="_blank">Luyao Niu</a><sup>1</sup>,
+                  </span>
+                  <br>
+                  <span class="author-block">
+                    <a href="https://zhenxianglance.github.io/" target="_blank">Zhen Xiang</a><sup>2</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://yuchenlin.xyz/" target="_blank">Bill Yuchen Lin</a><sup>1</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://aisecure.github.io/" target="_blank">Bo Li</a><sup>3</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://labs.ece.uw.edu/nsl/faculty/radha/" target="_blank">Radha Poovendran</a><sup>1</sup>,
+                  </span>
+                  </div>
+                  
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>&nbsp;University of Washington  &nbsp;&nbsp;  <sup>2</sup>&nbsp;University of Georgia &nbsp;&nbsp; <sup>3</sup>&nbsp;UIUC </span>
+                  </div>
+                  
+                  <p style="color: red; font-weight: bold;">
+                    ⚠️ Warning: This paper contains model outputs that may be considered offensive.
+                  </p>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code (Coming Soon)</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/UWNSL/SafeChain" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon" role="img" aria-label="hugging face">🤗</span>
+                  <span>Dataset</span>
+                </a>
+              </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Emerging large reasoning models (LRMs), such as DeepSeek-R1 models, leverage long chain-of-thought (CoT) reasoning to generate structured intermediate steps, enhancing their reasoning capabilities.  However, long CoT does not inherently guarantee safe outputs, potentially leading to harmful consequences such as the introduction of security vulnerabilities in code or the spread of misinformation. 
+            <p>
+              Current research on large language model (LLM) safety usually focuses on short-answer responses, overlooking the long CoT style outputs of LRMs. To bridge this gap, we conduct a systematic study of LRM safety. First, we investigate safety evaluators calibrated against human annotations. Using our newly developed metrics, we thoroughly assess the safety of 12 state-of-the-art LRMs on StrongReject and WildJailbreak datasets. Our results show that LRMs are <em>not</em> safe compared to their reasoning advance. Further, we perform a fine-grained analysis of the reasoning trace and final answer. We find that three decoding strategies—ZeroThink, LessThink, and MoreThink—can improve model safety <em>without</em> additional training. However, these strategies either use constrained reasoning traces or incur high inference costs.
+            </p>
+            
+            <p>
+              To better strengthen LRM safety, we introduce SafeChain, the first-of-its-kind safety training dataset in CoT style. We fine-tune two LRMs with 
+              SafeChain, showing that it not only enhances model safety 
+              but also preserves performance across 6 reasoning benchmarks.
+            </p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Optional section title -->
+    <!-- <div class="has-text-centered">
+    <h2 class="title is-3">Your Section Title</h2>
+    </div> -->
+    <br>
+    <!-- Figure on top -->
+    <figure class="image">
+      <img src="static/images/safechain.jpg" alt="" />
+    </figure>
+    <p class="has-text-left">
+      <strong>Left:</strong> The structured thought process by LRM when answering an example instruction from StrongReject. The safety-aware and harmful contents are marked in blue and red, respectively. <strong>Middle:</strong> We apply three prompting setups with varying CoT length, i.e., ZeroThink, LessThink and MoreThink (see Section 4.2). Our results show that ZeroThink yields the best safety performance. <strong>Right:</strong> Our pipeline to synthesize safety alignment dataset, SafeChain, for LRMs (see Section 5). Models fine-tuned with SafeChain exhibit improved safety performance while preserve reasoning capabilities across six reasoning benchmarks.
+    </p>
+    
+    <!-- Text below the figure -->
+    <!-- <div class="content has-text-justified">
+      <p>
+        Here is some text below the figure. You can describe what’s 
+        happening in the figure, give results, or continue with 
+        your discussion. Bulma’s <code>.content</code> class 
+        automatically applies nice formatting to paragraphs, lists, and more.
+      </p>
+    </div> -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Optional section title -->
+    <div class="has-text-centered">
+    <h2 class="title is-3">Pilot Study on Safety Evaluator for LRMs</h2>
+    </div>
+    <br>
+    <!-- Figure on top -->
+    
+    <figure class="image"  style="width: 40%; margin: 0 auto;">
+      <img src="static/images/evaluator.png" alt="" />
+    </figure>
+    <p class="has-text-left">
+        This table summarizes the 
+        <span style="font-variant: small-caps;">Acc</span>,
+        <span style="font-variant: small-caps;">F-1</span>,
+        and
+        <span style="font-variant: small-caps;">PCC</span>
+        of evaluators RS-Match, OpenAIMod, HarmBenchEval, and Llama-Guard.
+        Among all evaluators, we observe Llama-Guard exhibit robust performance 
+        across all metrics when evaluating the safety of reasoning models.
+      </p>
+    
+    
+    <!-- Text below the figure -->
+    <!-- <div class="content has-text-justified">
+      <p>
+        Here is some text below the figure. You can describe what’s 
+        happening in the figure, give results, or continue with 
+        your discussion. Bulma’s <code>.content</code> class 
+        automatically applies nice formatting to paragraphs, lists, and more.
+      </p>
+    </div> -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Optional section title -->
+    <div class="has-text-centered">
+    <h2 class="title is-3">Overall Evaluation</h2>
+    </div>
+    <br>
+    <!-- Figure on top -->
+    
+    <figure class="image">
+      <img src="static/images/overall_eval.png" alt="" />
+    </figure>
+    <p class="has-text-centered">
+      This table presents the safety performance of all LRMs evaluated using Safe@1, Safe@K, and ConsSafe@K (refer to Section 3.2.)
+    </p>
+    <br>
+
+    <figure class="image">
+      <img src="static/images/pairwise_eval.jpg" style="width: 60%; margin: 0 auto;" alt="" />
+    </figure>
+    <p class="has-text-left">
+      We compare the safety of R1-70B with its pre-trained model Llama-3.3-70B-Instruct, as well as the corresponding base model Llama-3.1-70B. We note that only 32.3% of responses by R1-70B is considered safe, implying that fine-tuning with long CoT does not necessarily enhance safety performance.
+    </p>
+    <br
+    <figure class="image">
+      <img src="static/images/varying_tpk.jpg" alt="" />
+    </figure>
+    <p class="has-text-left">
+      This figure shows how Safe@1 and Safe@K of R1-7B and R1-8B vary as decoding configuration (temperature, p value for top-p, and k value for top-k) change. We observe that the safety of LRMs degrades as temperature increases.
+    </p>
+    
+
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Optional section title -->
+    <div class="has-text-centered">
+    <h2 class="title is-3">Different Thinking</h2>
+    </div>
+    <br>
+    <!-- Figure on top -->
+    
+    <figure class="image">
+      <img src="static/images/different_think_example.png" style="width: 80%; margin: 0 auto;" alt="" />
+    </figure>
+    <p class="has-text-left">
+      
+        Texts in
+        <span style="background-color: #eee;">grey</span>
+        <span style="background-color: #fff3e0;">orange</span>,
+        <span style="background-color: #d9f2d9;">green</span>
+        boxes are instructions, Chain-of-Thoughts and answers respectively.
+        Text in
+        <span style="color: red;">red</span>
+        are enforced replacement text for
+        <span style="font-variant: small-caps;">MoreThink</span>
+        to substitute the end of thinking tag (i.e.,
+        <code>&lt;/think&gt;</code>).
+        For <em>i</em><sup>th</sup> output in
+        <span style="font-variant: small-caps;">MoreThink</span>,
+        the input context is { input, output 1, &#8230;, output <em>i</em>-1 }.
+      
+    </p>
+    <br>
+    <figure class="image">
+      <img src="static/images/different_think.png"  alt="" />
+    </figure>
+    <p class="has-text-left">
+      This tables shows the safety performances of R1 models under default, ZeroThink, LessThink, and MoreThink thinking setups. We observe that length of thought process affects safety. All thinking strategies yield enhanced safety performance than the default setup.
+    </p>
+    
+    <!-- Text below the figure -->
+    <!-- <div class="content has-text-justified">
+      <p>
+        Here is some text below the figure. You can describe what’s 
+        happening in the figure, give results, or continue with 
+        your discussion. Bulma’s <code>.content</code> class 
+        automatically applies nice formatting to paragraphs, lists, and more.
+      </p>
+    </div> -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Optional section title -->
+    <div class="has-text-centered">
+    <h2 class="title is-3">SafeChain</h2>
+    </div>
+    <br>
+    <!-- Figure on top -->
+    
+    <figure class="image">
+      <img src="static/images/safechain_train.png"  alt="" />
+    </figure>
+    <p class="has-text-left">
+      This table summarizes the math, coding, and safety performance of R1-7B and R1-8B fine-tuned with different datasets. We observe that SafeChain improves models' safety performance while preserves their math and coding performance across all benchmarks.
+    </p>
+    
+    <!-- Text below the figure -->
+    <!-- <div class="content has-text-justified">
+      <p>
+        Here is some text below the figure. You can describe what’s 
+        happening in the figure, give results, or continue with 
+        your discussion. Bulma’s <code>.content</code> class 
+        automatically applies nice formatting to paragraphs, lists, and more.
+      </p>
+    </div> -->
+  </div>
+</section>
+
+<!-- End image carousel -->
+
+
+
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <p>
+        If you find our work useful, please consider citing our paper:
+      </p>
+      <pre><code>TBA</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
